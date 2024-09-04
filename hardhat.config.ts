@@ -19,7 +19,7 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {
       forking: {
-        url: "https://rpc.testnet.fluence.dev", // Fluence testnet RPC URL
+        url: "https://eth-sepolia.g.alchemy.com/v2/apiKey",
         // blockNumber: 1234567, // Optional: the block number you want to fork from
       },
     },
