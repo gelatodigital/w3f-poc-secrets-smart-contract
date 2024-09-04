@@ -23,25 +23,21 @@ const config: HardhatUserConfig = {
         // blockNumber: 1234567, // Optional: the block number you want to fork from
       },
     },
-    fluence: {
-      url: "https://rpc.fluence.network", // Fluence testnet RPC URL
-      accounts: [PRIVATE_KEY],
-    },
     sepolia: {
-      url: "https://eth-sepolia.g.alchemy.com/v2/iWL0Xm8PpSwnQJQQxNyJHEBTnqRdCYI3",
+      url: "https://eth-sepolia.g.alchemy.com/v2/apiKey",
       accounts: [PRIVATE_KEY],
       chainId: 11155111,
     },
     arbitrumSepolia: {
-      url: "https://arb-sepolia.g.alchemy.com/v2/iWL0Xm8PpSwnQJQQxNyJHEBTnqRdCYI3",
+      url: "https://arb-sepolia.g.alchemy.com/v2/apiKey",
       accounts: [PRIVATE_KEY],
       chainId: 421614,
     },
   },
   etherscan: {
     apiKey: {
-      sepolia: "8W1PZJ2CHHRZEQBTSDHV19UH41X8NHHEVN",
-      arbitrumSepolia: "J9Q7QZ6A5TFNVIGSVIPPSHWKQVH8STVFUG",
+      sepolia: "XXX",
+      arbitrumSepolia: "XXX",
     },
     customChains: [
       {
